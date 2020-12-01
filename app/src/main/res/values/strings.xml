@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">AppMascotas</string>
+    <string name="pnombre">nombre</string>
+    <string name="cantLike">5</string>
+    <string name="estrella">estrella</string>
+    <string name="contacto">Contacto</string>
+    <string name="acerca">Acerca de</string>
+    <string name="hint_nombre">Ingresa tu Nombre</string>
+    <string name="hint_email">Ingresa tu E-mail</string>
+    <string name="hint_correoMens">Ingresa el Mensaje con el comentario que nos quieres hacer llegar</string>
+    <string name="enviar">Enviar</string>
+    <string name="formulario">Contactanos</string>
+    <string name="selecciona_email">Seleccione un cliente de Correo Electrónico</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="perfil_nombre">Snowball</string>
+    <string name="mi_nombre">Yanzely Ng</string>
+    <string name="mi_bio1">Bienvenido a mi MascotasApp</string>
+    <string name="mi_bio2">Soy Ingeniera en Electrónica y me gusta programar.</string>
+
+    <string name="sel_cuenta">Selecciona la cuenta de Instagram</string>
+    <string name="guarda_cuenta">Guardar Cuenta</string>
+    <string name="configura_cuenta">Configura Cuenta</string>
+    <string name="instagram">Instagram</string>
+    <string name="recibe_notif">Recibir Notificacion</string>
+    <string name="dame_Like">Dame un Like</string>
+</resources>

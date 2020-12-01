@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="nombre_contacto">33sp</dimen>
+    <dimen name="telefono_contacto">20sp</dimen>
+    <dimen name="top">20dp</dimen>
+    <dimen name="left">10dp</dimen>
+    <dimen name="right">10dp</dimen>
+    <dimen name="top_high">35dp</dimen>
+    <dimen name="left_high">20dp</dimen>
+    <dimen name="right_high">20dp</dimen>
+    <dimen name="left_low">5dp</dimen>
+    <dimen name="right_low">5dp</dimen>
+    <dimen name="corner_radius_cardview">4dp</dimen>
+    <dimen name="textSize_nombreCardV">20sp</dimen>
+    <dimen name="textSize_small">10sp</dimen>
+    <dimen name="elevacion_actionbar">4dp</dimen>
+    <dimen name="size_hueso">30dp</dimen>
+    <dimen name="image_width">100dp</dimen>
+    <dimen name="image_heigth">100dp</dimen>
+    <dimen name="big_image_width">200dp</dimen>
+    <dimen name="big_image_heigth">200dp</dimen>
+    <dimen name="mensaje_size">200dp</dimen>
+</resources>

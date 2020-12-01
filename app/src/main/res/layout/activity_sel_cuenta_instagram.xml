@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SelCuentaInstagram">
+
+    <TextView
+        android:id="@+id/tvTitleSelC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="@dimen/textSize_nombreCardV"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="@dimen/top_high"
+        />
+
+    <TextView
+        android:id="@+id/tvSelC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sel_cuenta"
+        android:textSize="@dimen/textSize_nombreCardV"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="@dimen/top_high"
+        />
+
+    <Spinner
+        android:id="@+id/spinner_cuentas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/left"
+        android:layout_marginTop="@dimen/top_high"
+        android:layout_marginRight="@dimen/right"
+        android:textSize="@dimen/textSize_nombreCardV"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/guarda_cuenta"
+        android:textSize="@dimen/textSize_nombreCardV"
+        android:layout_marginTop="@dimen/top_high"
+        android:background="@color/colorAccent"
+        android:onClick="onClickGuardaCuenta"
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ContactoActivity">
+
+
+
+    <TextView
+        android:id="@+id/tvTituloForm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/textSize_nombreCardV"
+        android:text="@string/formulario"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tfNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/left"
+        android:layout_marginTop="@dimen/top"
+        android:layout_marginRight="@dimen/right"
+        android:hint="@string/hint_nombre">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tieditNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/textSize_nombreCardV" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tfEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/left"
+        android:layout_marginTop="@dimen/top"
+        android:layout_marginRight="@dimen/right"
+        android:hint="@string/hint_email">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tieditEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/textSize_nombreCardV" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tfMensaje"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mensaje_size"
+        android:layout_marginLeft="@dimen/left"
+        android:layout_marginTop="@dimen/top"
+        android:layout_marginRight="@dimen/right"
+        android:hint="@string/hint_correoMens">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tieditMensaje"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/textSize_nombreCardV" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/enviar"
+        android:textSize="@dimen/textSize_nombreCardV"
+        android:layout_marginTop="@dimen/top"
+        android:background="@color/colorAccent"
+        android:onClick="onClicSendMsn"/>
+
+</LinearLayout>
