@@ -72,7 +72,15 @@ public class MainActivity<onCreateOptionsMenu> extends AppCompatActivity {
         viewPager = (ViewPager) findViewById(R.id.viewPager);
 
 
-        setUpViewPager();
+        Bundle extras = getIntent().getExtras();
+        int intentFragment = 0;
+        //getIntent().getExtras().getInt("frgToLoad");
+
+        if(extras != null) intentFragment= extras.getInt("frgToLoad");
+
+        setUpViewPager(intentFragment);
+
+
     }
 
 
@@ -160,13 +168,15 @@ public class MainActivity<onCreateOptionsMenu> extends AppCompatActivity {
         return fragments;
     }
 
-    private void setUpViewPager()
+    private void setUpViewPager(int i)
     {
         viewPager.setAdapter(new PageAdapter(getSupportFragmentManager(), agregarFragments()));
         tabLayout.setupWithViewPager(viewPager);
 
         tabLayout.getTabAt(0).setIcon(R.drawable.ic_home);
         tabLayout.getTabAt(1).setIcon(R.drawable.ic_dog);
+
+        viewPager.setCurrentItem(i,true);
         //viewPager.setAdapter(new PageAdapter(getSupportFragmentManager(), agregarFragments()));
     }
 

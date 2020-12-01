@@ -38,6 +38,7 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
     public void despliegaNotificacion(String mensajeNotif1)
     {
         Intent i = new Intent(this, MainActivity.class);
+        i.putExtra("frgToLoad", 1);
         PendingIntent pendingIntent = PendingIntent.getActivity(this, 0, i, PendingIntent.FLAG_ONE_SHOT);
 
         Uri sonido = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION);
